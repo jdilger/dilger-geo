@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="./lightbox/dist/css/lightbox.css" rel="stylesheet" />
+    <style>
+        @import url("stlye.css");
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li data-screen="#screen1" class="active"></li>
+        <li data-screen="#screen2"></li>
+        <li data-screen="#screen3"></li>
+        <li data-screen="#screen4"></li>
+        <li data-screen="#screen5"></li>
+      </ul>
+    </nav>
+
+    <section id="screen1">
+      <h1>John Dilger</h1>
+
+      <h2>
+        Geospatial engineer, environmental scientist &amp; Google Earth Engine guru with 6 years
+        experience.
+      </h2>
+
+      <h3>
+        <!-- <a id="target">Email me.</a> -->
+      
+      <a href="https://twitter.com/johndilger1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="johndilger1" height="30" width="40" /></a>
+      <a href="https://linkedin.com/in/john-dilger" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="john-dilger" height="30" width="40" /></a>
+      <a href="https://github.com/jdilger" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="jdilger" height="30" width="40" /></a>
+      </h3>
+      <div>
+        <img src="imgs/johndilger.jpg" id="profile" alt="john dilger" />
+      </div>
+    </section>
+
+    <section id="screen2">
+      <div><h2>Maps At A Glance</h2></div>
+
+      <div id="gallery">
+        <a title='Shifting agriculture in Laos - Classified using thresholding and Random forest classifier' href="./imgs/laosshiftingag.PNG" data-lightbox="designs" >
+          <img src="./imgs/laosshiftingag.PNG" />
+        </a>
+        <a href="./imgs/lassenlidar.PNG" title="Lidar analysis of forest fire risk in Lassen National State Park" data-lightbox="designs">
+            <img src="./imgs/lassenlidar.PNG" />
+          </a>
+
+        <a href="./imgs/postfire.PNG" title="Example of post fire vegetation monitoring land cover map. " data-lightbox="designs">
+          <img src="./imgs/postfire.PNG" />
+        </a>
+        <a href="./imgs/eebook.png" title="Landsat imagery of Mt. St Helens created for upcoming GEE textbook." data-lightbox="designs">
+            <img src="./imgs/eebook.png" />
+          </a>
+        <a href="./imgs/forestcarbon.PNG" title="Forest carbon stocks (yearly 1990-2020) - Created using a combination of LandTrendr and forest growth curves from literature. " data-lightbox="designs">
+          <img src="./imgs/forestcarbon.PNG" />
+        </a>
+      </div>
+    </section>
+    <section id="screen3">
+      <div
+        class="info"
+        data-500-top="right:-5%"
+        data-top="right:5%"
+        background-color="white"
+      >
+        <h2>Se.plan Forest Restoration Potential App</h2>
+        <p>
+            Application for planning forest restoration activities based upon user constraints, restoration goals, and cost for low and middle-income countries. Developed core code for analysis and dashboard using Google Earth Engine Python API. Assisted in front-end development using Jupyternote books, Voila, and Ipyvueify.  Application is hosted on the U.N. Food and Agriculture SEPAL platform.
+
+        </p>
+        <p>
+            <a href="https://github.com/12rambau/restoration_planning_module">GitHub</a>
+            <a href="https://docs.sepal.io/en/latest/modules/dwn/seplan.html#aknowledgement">Docs</a>
+        </p>
+      </div>
+      <img src="./imgs/seplan_landing_page.png" id="screenImg" alt="se.plan application" />
+    </section>
+
+    <section id="screen4">
+      <div
+        class="info"
+        data-500-top="right:-5%"
+        data-top="right:5%"
+        background-color="white"
+      >
+        <h2>Post Fire Vegetation Monitoring Plumas County, USA</h2>
+        <p>
+            This system provides land managers systematic updates for areas burned by wildfire, including changes in vegetation cover on a yearly cadence from 1984 onward. Wrote image preprocessing and analysis using  Google Earth Engine Python API. Maintained and updated front-end Django website over 2 years. 
+        </p>
+        <p>
+            <a href="https://github.com/sig-gis/postFireRecovery">GitHub</a>
+            <a href="https://postfirerecovery.com/map">Docs</a>
+        </p>
+      </div>
+
+      <img
+        src="./imgs/pfms.PNG"
+        id="screenImg"
+        alt="Post fire monitoring system"
+      />
+    </section>
+
+    <section id="screen5">
+      <div
+        class="info"
+        data-500-top="right:-5%"
+        data-top="right:5%"
+        background-color="white"
+      >
+        <h2>Spooky maps (personal project)</h2>
+        <p>
+             Web map for viewing ghost sightings. My goal with this project was to gain hands-on experience with web GIS frameworks and to make a fun map by using underutilized visualization customizations such as  cute ghost markers as icons and a spooky gray, purple and green color schema for the vector basemap tiles. Built using Flask, Bootstrap, SQLAlchemey, Google Maps API, Postgres, and PostGIS. 
+        </p>
+        <p>
+            <a href="https://github.com/jdilger/spookyMap">GitHub</a>
+            Website (soon)
+        </p>
+      </div>
+      <img src="./imgs/spooky.PNG" id="screenImg" alt="spooky maps" />
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="./lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/skrollr.min.js"></script>
+
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>

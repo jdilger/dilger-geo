@@ -1,0 +1,314 @@
+/* GENERAL LAYOUT */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  background-color: #fffef7;
+}
+
+h2 {
+  font-weight: 200;
+  margin-bottom: 1em;
+}
+
+section {
+  height: 65vh;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  width: 35%;
+  padding: 2em;
+  top: 5px;
+  bottom: 5px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-count: 2;
+  justify-content: center;
+  top: 100px;
+  text-align: center;
+}
+#gallery img {
+  max-width: 100%;
+  top: 100px;
+}
+#gallery a {
+  margin: 5px;
+  flex-grow: 1;
+  max-width: 450px;
+  flex-basis: 200px;
+  top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    display: none;
+  }
+  header {
+    height: 250px;
+  }
+  nav a {
+    display: block;
+    margin-bottom: 25px;
+  }
+}
+
+/* NAVIGATION */
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  height: 200px;
+  margin-top: -100px;
+  opacity: 0.8;
+  z-index: 1;
+}
+nav li {
+  width: 10px;
+  height: 10px;
+  list-style: none;
+  border: 3px solid #024224;
+  border-radius: 5%;
+  margin: 2em;
+  cursor: pointer;
+}
+nav li.active {
+  background: #024224;
+}
+
+/* SCREEN 1 */
+/* #screen1 section {
+  height: 65vh;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+} */
+
+#screen1 h1 {
+  font-size: 3em;
+  width: 100%;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #024224;
+  position: relative;
+  top: 15%;
+}
+#screen1 h2 {
+    font-size: 1em;
+    width: 100%;
+    letter-spacing: 2px 4.5px;
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    position: relative;
+    top: 17%;
+  }
+
+  #screen1 h3 {
+    font-size: 1em;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 17%;
+  }
+
+  #profile {
+  position: relative;
+  align-items: center;
+  top: 21%;
+  height: 50%;
+  max-width: 60%;
+  padding: 20px 20px 20px 20px;
+}
+#screen1 div {
+  text-align: center;
+  object-fit: contain;
+  height: 80%;
+  max-width: 100%;
+  top: 20%;
+}
+
+
+
+
+
+/* SCREEN 2 */
+
+/* #screen2 {
+  height: 150vh;
+} */
+
+#screen2 h2 {
+  font-size: 2em;
+  width: 100%;
+  color: #0b7e26;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+  top: 0%;
+}
+
+#screen2 div {
+  top: 0px;
+}
+
+#screen2 gallery {
+  top: 100px;
+}
+
+#screen2 video {
+  top: 50px;
+  max-width: 60%;
+  height: 40%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 20px 75px 20px 75px;
+}
+
+/* SCREEN 3 */
+#screen3 {
+}
+#screen3 .info {
+  right: 5px;
+  top: 7%;
+  bottom: 20%;
+}
+/*
+    #screen3 h2{
+        font-size: 1em;
+        width: 100%;
+        letter-spacing: 2px;
+        color: black;
+        text-align: center;
+       
+    }
+*/
+
+#screenImg {
+  object-fit: cover;
+  height: auto;
+  max-width: 60%;
+  image-orientation: center;
+  padding: 20px 20px 20px 20px;
+}
+
+/* SCREEN 4 */
+#screen4 {
+}
+#screen4 .info {
+  right: 5px;
+  top: 7%;
+  bottom: 20%;
+}
+
+#retrodollhouse {
+  object-fit: cover;
+  height: auto;
+  max-width: 60%;
+  padding: 20px 10px 10px 20px;
+}
+
+/* SCREEN 5 */
+/*        #screen5*/
+#screen5 .info {
+  right: 5px;
+  top: 7%;
+  bottom: 20%;
+}
+#fannation {
+  object-fit: cover;
+  height: auto;
+  max-width: 60%;
+  padding: 20px 20px 20px 20px;
+}
+/*
+    #screen5 h2{
+        font-size: 1em;
+        width: 100%;
+        letter-spacing: 2px;
+        text-align: right;
+        color: black;
+        
+    }
+    
+*/
+/* SCREEN 6 */
+#screen6 {
+}
+#screen6 .info {
+  right: 5px;
+  top: 7%;
+  bottom: 20%;
+}
+
+#magazine {
+  object-fit: cover;
+  height: auto;
+  max-width: 60%;
+  padding: 20px 20px 20px 20px;
+}
+/*
+    h2{
+        font-size: 1em;
+        width: 100%;
+        letter-spacing: 2px;
+        text-align: center;
+        color: black;
+        position:absolute;
+        top: 300px;
+    }
+           
+*/
+
+/* SCREEN 7 */
+#screen7 {
+}
+#screen7 .info {
+  right: 5px;
+  top: 7%;
+  bottom: 20%;
+}
+
+#dearevanhansen {
+  object-fit: cover;
+  height: auto;
+  max-width: 60%;
+  padding: 20px 10px 10px 20px;
+}
+
+/* SCREEN 8 */
+#screen8 {
+}
+#screen8 .info {
+  right: 5px;
+  top: 7%;
+  bottom: 20%;
+}
+
+#taylormac {
+  object-fit: cover;
+  height: auto;
+  max-width: 60%;
+  padding: 20px 10px 10px 20px;
+}
+
