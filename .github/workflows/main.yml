@@ -2,7 +2,7 @@
 name: Copy files to GCS
 on:
   push:
-    branches: [release]
+    branches: [main]
 
 jobs: 
   copy-files-gcs:
