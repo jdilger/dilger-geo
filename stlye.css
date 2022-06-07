@@ -110,27 +110,27 @@ nav li.active {
   top: 15%;
 }
 #screen1 h2 {
-    font-size: 1em;
-    width: 100%;
-    letter-spacing: 2px 4.5px;
-    text-align: center;
-    color: black;
-    font-style: oblique;
-    position: relative;
-    top: 17%;
-  }
+  font-size: 1em;
+  width: 100%;
+  letter-spacing: 2px 4.5px;
+  text-align: center;
+  color: black;
+  font-style: oblique;
+  position: relative;
+  top: 17%;
+}
 
-  #screen1 h3 {
-    font-size: 1em;
-    width: 100%;
-    letter-spacing: 2px;
-    text-align: center;
-    color: black;
-    position: relative;
-    top: 17%;
-  }
+#screen1 h3 {
+  font-size: 1em;
+  width: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 17%;
+}
 
-  #profile {
+#profile {
   position: relative;
   align-items: center;
   top: 21%;
@@ -145,10 +145,6 @@ nav li.active {
   max-width: 100%;
   top: 20%;
 }
-
-
-
-
 
 /* SCREEN 2 */
 
@@ -311,4 +307,3 @@ nav li.active {
   max-width: 60%;
   padding: 20px 10px 10px 20px;
 }
-
