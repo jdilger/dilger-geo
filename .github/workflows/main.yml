@@ -1,4 +1,5 @@
 # https://stackoverflow.com/questions/68373383/replace-folder-using-upload-cloud-storage-action
+
 name: Copy files to GCS
 on:
   push:
