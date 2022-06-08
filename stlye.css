@@ -182,23 +182,25 @@ nav li.active {
 }
 
 /* SCREEN 3 */
-#screen3 {
-}
+
 #screen3 .info {
   right: 5px;
   top: 7%;
   bottom: 20%;
 }
-/*
-    #screen3 h2{
-        font-size: 1em;
-        width: 100%;
-        letter-spacing: 2px;
-        color: black;
-        text-align: center;
-       
-    }
-*/
+.section-header h2 {
+  font-size: 2em;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+  top: 0%;
+}
+
+#screen3 div {
+  top: 0px;
+}
 
 #screenImg {
   object-fit: cover;
