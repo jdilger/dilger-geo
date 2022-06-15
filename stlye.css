@@ -8,7 +8,11 @@ body {
   color: #000000;
   background-color: #fffef7;
 }
+footer {
+  text-align: center;
+  padding: 3px;
 
+}
 h2 {
   font-weight: 200;
   margin-bottom: 1em;
@@ -27,8 +31,6 @@ section {
   position: absolute;
   width: 35%;
   padding: 2em;
-  top: 5px;
-  bottom: 5px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -42,6 +44,7 @@ section {
   text-align: center;
 }
 #gallery img {
+  object-fit:cover;
   max-width: 100%;
   top: 100px;
 }
@@ -91,14 +94,7 @@ nav li.active {
 }
 
 /* SCREEN 1 */
-/* #screen1 section {
-  height: 65vh;
-  width: 100%;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-} */
+
 
 #screen1 h1 {
   font-size: 3em;
@@ -184,8 +180,7 @@ nav li.active {
 /* SCREEN 3 */
 
 #screen3 .info {
-  right: 5px;
-  top: 7%;
+  top: 3em;
   bottom: 20%;
 }
 .section-header h2 {
@@ -198,9 +193,7 @@ nav li.active {
   top: 0%;
 }
 
-#screen3 div {
-  top: 0px;
-}
+
 
 #screenImg {
   object-fit: cover;
@@ -211,101 +204,20 @@ nav li.active {
 }
 
 /* SCREEN 4 */
-#screen4 {
-}
+
 #screen4 .info {
-  right: 5px;
-  top: 7%;
+  top: -2em;
   bottom: 20%;
 }
 
-#retrodollhouse {
-  object-fit: cover;
-  height: auto;
-  max-width: 60%;
-  padding: 20px 10px 10px 20px;
-}
+
 
 /* SCREEN 5 */
 /*        #screen5*/
 #screen5 .info {
-  right: 5px;
-  top: 7%;
-  bottom: 20%;
-}
-#fannation {
-  object-fit: cover;
-  height: auto;
-  max-width: 60%;
-  padding: 20px 20px 20px 20px;
-}
-/*
-    #screen5 h2{
-        font-size: 1em;
-        width: 100%;
-        letter-spacing: 2px;
-        text-align: right;
-        color: black;
-        
-    }
-    
-*/
-/* SCREEN 6 */
-#screen6 {
-}
-#screen6 .info {
-  right: 5px;
-  top: 7%;
+  top: -2em;
   bottom: 20%;
 }
 
-#magazine {
-  object-fit: cover;
-  height: auto;
-  max-width: 60%;
-  padding: 20px 20px 20px 20px;
-}
-/*
-    h2{
-        font-size: 1em;
-        width: 100%;
-        letter-spacing: 2px;
-        text-align: center;
-        color: black;
-        position:absolute;
-        top: 300px;
-    }
-           
-*/
 
-/* SCREEN 7 */
-#screen7 {
-}
-#screen7 .info {
-  right: 5px;
-  top: 7%;
-  bottom: 20%;
-}
 
-#dearevanhansen {
-  object-fit: cover;
-  height: auto;
-  max-width: 60%;
-  padding: 20px 10px 10px 20px;
-}
-
-/* SCREEN 8 */
-#screen8 {
-}
-#screen8 .info {
-  right: 5px;
-  top: 7%;
-  bottom: 20%;
-}
-
-#taylormac {
-  object-fit: cover;
-  height: auto;
-  max-width: 60%;
-  padding: 20px 10px 10px 20px;
-}
