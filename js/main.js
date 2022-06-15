@@ -16,14 +16,12 @@ $("nav li").click(function () {
     );
 });
 $(document).scroll(function () {
-    var activeScreen = Math.round($(document).scrollTop() / $(window).height()) + 1;
-       var t =Math.round(Math.log($(window).height())/Math.log($(document).scrollTop()) ) + 1;
-        // Math.round($(document).scrollTop() / $(window).height()) + 1;
-    console.log(t,'t')
-    console.log($(document).scrollTop() ,'doc scroll top')
-    console.log($("nav li").scrollTop() ,'"nav li" scroll top')
-    console.log($(window).height(),'window height')
-    console.log(Math.floor( $(window).height()/activeScreen ),'activeScreen /window height')
+
+    var height = $(document).height()
+    var bins = 5
+    var curScroll = $(document).scrollTop()
+    var activeScreen = Math.ceil(bins * (curScroll - 0) / (height - 0))+1
+    // (np.round((B * (X - xmin) / (xmax - xmin)))
 
     $("nav li").removeClass("active");
     $("nav li:nth-child(" + activeScreen + ")").addClass("active");
