@@ -220,4 +220,10 @@ nav li.active {
 }
 
 
-
+#screen6 div {
+  text-align: center;
+  object-fit: contain;
+  height: 80%;
+  max-width: 100%;
+  top: 20%;
+}

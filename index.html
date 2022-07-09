@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,6 +13,8 @@
     <style>
       @import url("stlye.css");
     </style>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="contributions/static/style.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -192,7 +196,18 @@
       </div>
       <img src="./imgs/spooky.PNG" id="screenImg" alt="spooky maps" />
     </section>
-    
+    <section id="screen6">
+      <div id="includedContent">
+        <h2>Google Earth Engine Contribution Graph</h2>
+        <p>As a quick little project I built off of exsting work of <a href="https://github.com/alexwlchan/contributions-graph">github.com/alexwlchan</a> to create a Google Earth Engine contribution graph.
+        I find being able to view my GEE contribtions in a graph like this satisfying. To adapt the code I first had to refactor the original code base from Python 2 to Python 3. The graphs are created using Python
+        to generate HTML. 
+        <br>
+        The graph below is an example of my GEE contributions from my two main GEE accounts over a year. 
+        </p>
+        <iframe src="./eegraph.html" height="700vh" width="80%" style="border:none;"></iframe>
+      </div>
+    </section>
     <footer>
       <p>Author: John Dilger</p>
     </footer>
@@ -201,7 +216,6 @@
     <script src="./lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
     <script src="js/jquery.easing.js"></script>
     <script src="js/skrollr.min.js"></script>
-
     <script src="js/main.js"></script>
   </body>
 </html>
